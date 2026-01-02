@@ -7,9 +7,6 @@ This Python script automates the process of monitoring website performance. It f
 - **Automation:** Scheduled to run automatically every 4 hours.
 - **Multithreading:** Handles multiple URLs concurrently for faster execution.
 - **Google Sheets Integration:** Seamlessly appends data to your specified spreadsheet.
-- **Google Sheets Integration:** Seamlessly appends data to your specified spreadsheet.
-- <img width="1920" height="414" alt="Screenshot (461)" src="https://github.com/user-attachments/assets/90bdc3dc-e5f1-40e7-888d-fcc61a8f55ff" />
-
 - **Error Logging:** Detailed logging to `pagespeed.log` for debugging.
 
 ## 📋 Metrics Collected
@@ -27,7 +24,7 @@ This Python script automates the process of monitoring website performance. It f
 - Python 3.x installed.
 - A Google Cloud Project with **PageSpeed Insights API** and **Google Sheets API** enabled.
 - A Google Sheet (Create a blank sheet with headers in the first row).
-
+- <img width="1920" height="414" alt="Screenshot (461)" src="https://github.com/user-attachments/assets/90bdc3dc-e5f1-40e7-888d-fcc61a8f55ff" />
 ### 2. Installation
 Clone this repository:
 ```bash
