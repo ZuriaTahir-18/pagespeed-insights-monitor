@@ -48,7 +48,7 @@ SHEET_ID:
 
 Copy the long string in the URL between /d/ and /edit.
 
--URLS_TO_TEST:
+URLS_TO_TEST:
 
 Add the list of websites you want to monitor.
 
@@ -67,5 +67,6 @@ Important: Copy the "Service Account Email" and Share your Google Sheet with thi
 ### 5. Running the Script
 
 Start the monitor by running:
-
+```bash
 python main.py
+```
