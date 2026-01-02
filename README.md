@@ -1,123 +1,63 @@
-
+PageSpeed Insights to Google Sheets Monitor
+This Python script automates the process of monitoring website performance. It fetches Core Web Vitals and other key metrics from the Google PageSpeed Insights API and logs them directly into a Google Sheet for analysis.
 🚀 Features
-
 Performance Tracking: Captures CLS, TBT, SI, LCP, FCP, and Screen Type.
-
 Automation: Scheduled to run automatically every 4 hours.
-
 Multithreading: Handles multiple URLs concurrently for faster execution.
-
 Google Sheets Integration: Seamlessly appends data to your specified spreadsheet.
-
 Error Logging: Detailed logging to pagespeed.log for debugging.
-
 📋 Metrics Collected
-
 URL & Date of Test
-
 Cumulative Layout Shift (CLS)
-
 Total Blocking Time (TBT)
-
 Speed Index (SI)
-
 Largest Contentful Paint (LCP)
-
 First Contentful Paint (FCP)
-
 Screen Type (Mobile/Desktop)
-
 🛠️ Setup Instructions
 1. Prerequisites
-
 Python 3.x installed.
-
 A Google Cloud Project with PageSpeed Insights API and Google Sheets API enabled.
-
 A Google Sheet (Create a blank sheet with headers in the first row).
-
 2. Installation
-
 Clone this repository:
-
 code
 Bash
-download
-content_copy
-expand_less
 git clone https://github.com/YOUR_USERNAME/pagespeed-insights-monitor.git
 cd pagespeed-insights-monitor
-
 Install the required libraries:
-
 code
 Bash
-download
-content_copy
-expand_less
 pip install requests google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client schedule
 3. Configuration (Where to put what?)
-
 Open main.py and update the following variables:
-
 PAGESPEED_API_KEY:
-
 Go to Google Cloud Console.
-
 Create an "API Key" and paste it here.
-
 SHEET_ID:
-
 Open your Google Sheet in the browser.
-
 Copy the long string in the URL between /d/ and /edit.
-
 Example: https://docs.google.com/spreadsheets/d/1aj-y4amgZEH.../edit -> The ID is 1aj-y4amgZEH...
-
 URLS_TO_TEST:
-
 Add the list of websites you want to monitor.
-
 4. Authentication (Google Sheets)
-
 For security reasons, the credentials.json file is not included in this repository.
-
 In Google Cloud Console, create a Service Account.
-
 Download the JSON Key for that service account.
-
 Rename the downloaded file to credentials.json and move it into the project folder.
-
 Important: Copy the "Service Account Email" and Share your Google Sheet with this email as an Editor.
-
 5. Running the Script
-
 Start the monitor by running:
-
 code
 Bash
-download
-content_copy
-expand_less
 python main.py
 📝 Assumptions & Notes
-
 Security: The credentials.json and actual API keys are excluded from Git using .gitignore.
-
 Sheet Format: The script assumes the first sheet is named Sheet1. It appends data to columns A through H.
-
 Execution: The script will run once immediately and then repeat every 4 hours.
-
 Pro-Tip for your GitHub:
-
 GitHub par upload karte waqt aapke folder ka structure aisa hona chahiye:
-
 main.py (Ismein dummy keys honi chahiye)
-
 .gitignore (Ismein credentials.json likha hona chahiye)
-
 README.md (Upar wala content)
-
 requirements.txt (Optional, par acha hota hai)
-
-Aapka assignment ab kaafi professional lag raha hai! Best of luck.
