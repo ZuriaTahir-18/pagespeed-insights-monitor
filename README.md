@@ -41,24 +41,31 @@ PAGESPEED_API_KEY:
 -Go to Google Cloud Console.
 
 Create an "API Key" and paste it here.
+
 SHEET_ID:
+
 -Open your Google Sheet in the browser.
 
 Copy the long string in the URL between /d/ and /edit.
+
 -URLS_TO_TEST:
+
 Add the list of websites you want to monitor.
 
 ### 4. Authentication (Google Sheets)
+
 For security reasons, the credentials.json file is not included in this repository.
 
 In Google Cloud Console, create a Service Account.
 
 Download the JSON Key for that service account.
+
 Rename the downloaded file to credentials.json and move it into the project folder.
 
 Important: Copy the "Service Account Email" and Share your Google Sheet with this email as an Editor.
 
 ### 5. Running the Script
+
 Start the monitor by running:
 
 python main.py
