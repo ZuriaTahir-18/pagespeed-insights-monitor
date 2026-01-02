@@ -36,11 +36,14 @@ pip install requests google-auth google-auth-oauthlib google-auth-httplib2 googl
 
 ### 3. Configuration (Where to put what?)
 -Open main.py and update the following variables:
+
 PAGESPEED_API_KEY:
 -Go to Google Cloud Console.
+
 Create an "API Key" and paste it here.
 SHEET_ID:
 -Open your Google Sheet in the browser.
+
 Copy the long string in the URL between /d/ and /edit.
 -URLS_TO_TEST:
 Add the list of websites you want to monitor.
