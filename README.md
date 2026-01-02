@@ -8,7 +8,7 @@ This Python script automates the process of monitoring website performance. It f
 - **Multithreading:** Handles multiple URLs concurrently for faster execution.
 - **Google Sheets Integration:** Seamlessly appends data to your specified spreadsheet.
 - **Google Sheets Integration:** Seamlessly appends data to your specified spreadsheet.
-- ![Uploading Screenshot (461).png…]()
+- <img width="1920" height="414" alt="Screenshot (461)" src="https://github.com/user-attachments/assets/90bdc3dc-e5f1-40e7-888d-fcc61a8f55ff" />
 
 - **Error Logging:** Detailed logging to `pagespeed.log` for debugging.
 
