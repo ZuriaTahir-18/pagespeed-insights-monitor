@@ -50,7 +50,15 @@ Add the list of websites you want to monitor.
 
 ### 4. Authentication (Google Sheets)
 For security reasons, the credentials.json file is not included in this repository.
+
 In Google Cloud Console, create a Service Account.
+
 Download the JSON Key for that service account.
 Rename the downloaded file to credentials.json and move it into the project folder.
+
 Important: Copy the "Service Account Email" and Share your Google Sheet with this email as an Editor.
+
+### 5. Running the Script
+Start the monitor by running:
+
+python main.py
