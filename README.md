@@ -26,6 +26,8 @@ This Python script automates the process of monitoring website performance. It f
 - Python 3.x installed on your system.
 - A Google Cloud Project with **PageSpeed Insights API** and **Google Sheets API** enabled.
 - A Google Sheet prepared with a header row (A1:H1).
+  <img width="1897" height="355" alt="Screenshot (625)" src="https://github.com/user-attachments/assets/307b3fde-8a47-4c04-9d10-2bfdc32fd25f" />
+
 
 #### 2. Installation
 Clone the repository and install the required Python libraries:
